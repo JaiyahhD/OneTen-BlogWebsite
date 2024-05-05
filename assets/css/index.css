@@ -1,0 +1,167 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: #ECE9E6; 
+background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6); 
+background: linear-gradient(to bottom, #FFFFFF, #ECE9E6); 
+
+}
+
+.navStyle {
+    background-color: #eff7f7;
+    color: #efefef;
+    padding: 10px;
+    text-decoration: none;
+    color: inherit;
+    text-decoration: none;
+}
+
+.navLink.active a {
+     color: #080808;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navLink a:hover{
+    color: #ffdde1;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.navLink a:visited {
+    color: inherit;
+}
+
+.title-container {
+    display: grid;
+    place-items: center;
+  }
+  
+
+.footerStyle a {
+    color: #fff; 
+    text-decoration: none;
+  
+  }
+  
+  /* Style footer */
+  .footerStyle {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    padding: 20px; 
+    justify-content: space-around;
+    background-color: #343a40; 
+    color: #fff; 
+}
+  
+  .footerStyle .social-icons img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .footerStyle a:hover {
+    color: #ee9ca7; 
+  }
+  
+
+.navStyle .navLink a {
+    text-decoration: none;
+}
+
+.huge-title {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(199, 197, 193);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+
+img {
+    margin: 0 auto; 
+    display: block;
+    max-width: 100%;
+}
+
+.card .container {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-width: 1px;
+    border-style:groove;
+    border-color: #cfcdca;
+    padding: 1px;
+    margin-bottom: 5px;
+    display: block;
+    
+}
+
+.card h2 {
+    font-size: 20px; 
+    text-align: center;
+}
+
+/* Set the color of all links within .card to black */
+.card a,
+.card a:visited {
+    color: black;
+}
+
+/* Remove underline from all links within .card */
+.card a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Optional: Specify link color on hover */
+.card a:hover {
+    color: black;
+    font-style: italic;
+}
+
+
+.card.card1 {
+    background: #ee9ca7;  
+    background: -webkit-linear-gradient(to top, #ffdde1, #ee9ca7);  
+    background: linear-gradient(to top, #ffdde1, #ee9ca7); 
+    text-decoration: none;
+}
+
+.card.card2 {
+    background: #1c92d2; 
+    background: -webkit-linear-gradient(to top, #f2fcfe, #1c92d2); 
+    background: linear-gradient(to top, #f2fcfe, #1c92d2); 
+
+}
+
+.card.card3 {
+    background: #76b852; 
+    background: -webkit-linear-gradient(to left, #8DC26F, #76b852); 
+    background: linear-gradient(to left, #8DC26F, #76b852); 
+
+}
+
+.p {
+    font-size: 8em;
+}
